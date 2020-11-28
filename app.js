@@ -1,5 +1,12 @@
-var username = prompt("give me username")
-var welcomeMessage = "Welcome and good morning ! " + username;
+var btnTranslate = document.querySelector("#btn-translate");
 
-alert(welcomeMessage);
-// alert("this is script work!" + username);
+console.log(btnTranslate);
+
+
+
+
+// var username = prompt("give me username")
+// var welcomeMessage = "Welcome and good morning ! " + username;
+
+// alert(welcomeMessage);
+// // alert("this is script work!" + username);
