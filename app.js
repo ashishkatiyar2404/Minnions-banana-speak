@@ -1,8 +1,17 @@
 var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#text-input");
+console.log(txtInput);
 
-console.log(btnTranslate);
+btnTranslate.addEventListener("click",function clickEventHandler() {
+    console.log("clicked!");
+})
 
 
+
+
+// var btnTranslate = document.querySelector("#btn-translate");
+
+// console.log(btnTranslate);
 
 
 // var username = prompt("give me username")
