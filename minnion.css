@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+html {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* background: transparent; */
+}
+
+body {
+    background-size: cover;
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    margin: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* overflow: hidden; */
+
+}
+
+nav .nav-div {
+    background-color: rgb(245, 224, 80);
+    height: 100px;
+    text-align: right;
+    font-size: 3rem;
+    border-radius: 0px 0px 15px 15px;
+    padding: 0px 15px 0px 0px;
+    margin-bottom: 0%;
+
+
+}
+
+.minnion-img {
+    background-image: url("minnions-img/minnion.jpg");
+    background-size: cover;
+    /* opacity:0.9; */
+    padding: 0px;
+    margin-top: 0%;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: 'Major Mono Display', monospace;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+textarea {
+    display: block;
+    width: 40%;
+    margin: 1rem;
+    height: 15vh;
+    padding: 1rem;
+    border-radius: 20px;
+    background: transparent;
+    resize: none;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+}
+
+textarea::-webkit-input-placeholder {
+    color: rgb(207, 207, 207);
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+/* .minionese{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    padding-left: 1200px;
+
+} */
+h2 {
+    padding-left: 1200px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+button {
+    display: block;
+    padding: 13px 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    font-weight: 500;
+    font-size: medium;
+    /* opacity: 1; */
+    margin-left: 350px;
+    font-family: 'Major Mono Display', monospace;
+    box-shadow: 1px 1px 2px 2px whitesmoke;
+}
+
+#output {
+    background: transparent;
+    width: 40%;
+    margin-left: 870px;
+    height: 15vh;
+    /* padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px; */
+    padding: 10px 0px 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+footer {
+    background-color: rgb(245, 224, 80);
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 1.1rem 0rem;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    /* padding-inline-start:50px; */
+    margin: 0 auto;
+
+}
+
+footer ul {
+    padding-inline-start: 0px;
+    word-spacing: 2px;
+}
+
+footer li {
+    text-decoration: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: medium;
+}
