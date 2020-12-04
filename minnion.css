@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
-html {
-    overflow: scroll;
-}
+    /* html {
+        overflow: scroll;
+    } */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0px;
-    /* background: transparent; */
 }
+    /* background: transparent; */
+ 
 
 body {
     background-size: cover;
@@ -21,17 +22,26 @@ body {
     /* overflow: hidden; */
 
 }
-
+nav .para{
+    background-color: rgb(245, 224, 80);
+    color:#551ABB;
+    margin: 0px;
+    border-radius: 0px 0px 15px 15px;
+    height: 40px;
+    font-size: large;
+    font-weight: 900;
+    padding-left: 20px;
+}
 nav .nav-div {
     background-color: rgb(245, 224, 80);
-    height: 100px;
+    /* height: 100px; */
     text-align: right;
     font-size: 3rem;
-    border-radius: 0px 0px 15px 15px;
-    padding: 0px 15px 0px 0px;
+   
+    padding: 10px 15px 0px 0px;
     margin-bottom: 0%;
-
-
+    font-weight: bolder;
+    /* vertical-align: middle; */
 }
 
 .minnion-img {
@@ -80,6 +90,7 @@ h2 {
     font-family: 'Major Mono Display', monospace;
     font-weight: 700;
     opacity: 0.8;
+    display: inline-block;
 }
 
 button {
@@ -117,7 +128,7 @@ footer {
     width: 100%;
     text-align: center;
     list-style: none;
-    padding: 1.1rem 0rem;
+    padding: 1rem 0rem;
     margin-bottom: 0%;
     border-radius: 10px;
     font-family: 'Major Mono Display', monospace;
