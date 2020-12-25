@@ -20,6 +20,7 @@ body {
     height: 100%;
     position: fixed;
     /* overflow: hidden; */
+    /* overflow: auto; */
 
 }
 nav .para{
